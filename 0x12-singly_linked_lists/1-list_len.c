@@ -3,17 +3,17 @@
 
 /**
  * list_len - returns number of the elements in linked list
- * @g: pointer to the list_t list
+ * @h: pointer to the list_t list
  *
  */
-size_t list_len(const list_t *g)
+size_t list_len(const list_t *h)
 {
 size_t siz = 0;
 
-while (g)
+while (h)
 {
 siz++;
-g = g->next;
+h = h->next;
 }
 return (n);
 }
