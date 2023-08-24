@@ -13,6 +13,7 @@ size_t k = 0;
 
 while (g)
 {
+
 if (!g->str)
 printf("[0] (nil)\n");
 else
