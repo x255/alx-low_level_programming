@@ -140,7 +140,7 @@ void print_osabi(unsigned char *e_ident)
 printf("  OS/ABI:                            ");
 
 switch (e_ident[EI_OSABI])
-}
+{
 case ELFOSABI_NONE:
 printf("UNIX - System V\n");
 break;
